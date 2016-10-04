@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Me'
-SITENAME = 'EveBorn'
-SITEURL = 'http://nigelzhf.github.io/'
+SITENAME = 'ExFly'
+SITEURL = 'exfly.github.io'
 
 PATH = 'content'
 
@@ -28,7 +28,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('twitter', '#'),
           ('lastfm', '#'),
-          ('github', 'https://github.com/nigelzhf'),)
+          ('github', 'https://github.com/exfly'),)
 
 DEFAULT_PAGINATION = 15
 
@@ -54,6 +54,6 @@ NIUX2_HEADER_SECTIONS = [
 
 NIUX2_FOOTER_ICONS = [
      ("icon-envelope-alt", "my email address", "mailto: 992122833@qq.com"),
-     ("icon-github-alt", "my github page", "https://github.com/nigelzhf"),
+     ("icon-github-alt", "my github page", "https://github.com/exfly"),
      ("icon-rss", "subscribe my blog via rss", "#"),
  ]
