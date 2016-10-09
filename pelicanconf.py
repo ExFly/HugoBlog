@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Me'
 SITENAME = 'ExFly'
-SITEURL = 'exfly.github.io'
+SITEURL = 'http://exfly.github.io'
 
 PATH = 'content'
 
@@ -53,7 +53,7 @@ NIUX2_HEADER_SECTIONS = [
 ]
 
 NIUX2_FOOTER_ICONS = [
-     ("icon-envelope-alt", "my email address", "mailto: 992122833@qq.com"),
+     ("icon-envelope-alt", "my email address", "mailto: exfly@outlook.com"),
      ("icon-github-alt", "my github page", "https://github.com/exfly"),
      ("icon-rss", "subscribe my blog via rss", "#"),
  ]
