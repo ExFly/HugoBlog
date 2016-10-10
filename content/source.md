@@ -8,7 +8,7 @@ Summary: 平时收集的资源汇总: 笔记 书单 博客
 
 # 笔记
 
-* [NoteBookForDevelop](https://github.com/Nigelzhf/NoteBookForDevelop)
+* [NoteBookForDevelop](https://github.com/ExFly/CsLearning/tree/master/NoteBookForDevelop)
 
 # 博客 网站
 
