@@ -12,67 +12,230 @@ Summary: 平时收集的资源汇总: 笔记 书单 博客
 
 # 博客 网站
 
+* 资源
+    * 相关网站汇总
+        * [学习网站资源网站汇总](http://www.zhihu.com/question/27751561/answer/51307463)
+        * [github awesome](https://github.com/bayandin/awesome-awesomeness)
+        * [各类网站整理](http://www.zhihu.com/question/31380464/answer/51709898)
+    * [计算机书籍控](http://bestcbooks.com/)
+    * [github书整理](https://github.com/bayandin/awesome-awesomeness)
+    * [计算机书籍推荐](http://www.nowamagic.net/librarys/veda/books/)
+    * [online book](http://www.readprint.com/)
+    * [开源知识库](https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/content/0.html)
+    * [ui资源](http://www.xueui.cn/)
+    * [算法题和答案](http://coolshell.cn/articles/12052.html)
+    * [把《编程珠玑》读薄](http://www.hawstein.com/posts/make-thiner-programming-pearls.html)
+    * [机器学习资料](http://blog.jobbole.com/73806/)
+    * [Python资源大全](https://github.com/jobbole/awesome-python-cn)
+    * [Python 的练手项目有哪些值得推荐 - zhihu](http://www.zhihu.com/question/29372574/answer/88624507)
+    * [一个全栈增长工程师的练手项目集](https://github.com/phodal/ideabook/blob/gh-pages/README.md)
+    * [有了这个列表，程序员不愁没练手的小项目了](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539215&idx=1&sn=d639666834e10a3170e29d2c33098050&scene=0)
+    * [大数据学习资源整理](http://www.tuicool.com/wx/NrYvqu7?from=singlemessage&isappinstalled=1)
+    * [web线框图](http://www.iteye.com/news/23894)
+    * [短信登录验证 ](http://www.mob.com/)
+    * [jobbole 资源](http://hao.jobbole.com/)
+    * [ui设计相关资源](http://www.zhihu.com/question/27751561/answer/51307463)
+    * [各类网站汇总](http://1nami.com/)
+
+* 打字游戏
+    * [typing](https://www.typing.com/)
+    * [zty](http://zty.pe)
+    * [typing](https://typing.io)
+    * [typingmaster](http://www.typingmaster.com)
+    * [hacktyping](http://hackertyper.net/)
+
+## CS网站
+
+* [google工程师学习计划](https://github.com/jwasham/google-interview-university)
+* [github trending](https://github.com/trending)
+* [v2ex](https://www.v2ex.com/)
+* [blog 网站资源汇总](http://www.diycode.cc/sites)
+* [推酷-编程狂人](http://www.tuicool.com/mags)
+* [泰晓科技](http://www.tinylab.org/)
+* [简明现代魔法](http://www.nowamagic.net/)
+* [编程狂人 周刊](http://www.tuicool.com/mags)
+* [IT技术博客大学习](http://blogread.cn/it/)
+* [memect日报周报](http://memect.com/)
+* [粉丝日志 r cpp 数据科学](http://blog.fens.me/)
+
+* [每个 CS 系学生都应该知道的事](http://mp.weixin.qq.com/s?__biz=MzA4MjEyNTA5Mw==&mid=2652563679&idx=1&sn=72be4da3331d2e9a399fe25e3f4727f2&scene=0#wechat_redirect)
+* [机器学习资源](http://blog.jobbole.com/73806/)
+
+## 问答网站
+
+* [知乎](http://www.zhihu.com/)
+* [stackoverflow](http://stackoverflow.com/)
+* [segmentfault](https://segmentfault.com/)
+* [类似知乎网站](http://www.zhihu.com/question/28260522)
+* [深度开源](http://www.open-open.com/)
+* [v2ex](https://www.v2ex.com/)
+
+## 好的github
+
+* [PIOS](https://github.com/bford/PIOS):PIOS操作系统
+* [me115](https://github.com/me115/rss)
+* [码云](http://git.oschina.net/bxtkezhan/projects)
+
+## 书单
+
+
+
+* 操作系统
+    * [深入理解操作系统](http://csapp.cs.cmu.edu/):估计把所有课后题做完，至少本科毕业水平
+    * Orange's 一个操作系统的实现
+    * 深入理解Linux内核
+    * Linux内核设计与实现
+    * 深入Linux内核架构
+    * 程序员自我修养：链接装载与库
+    * Unix环境高级编程
+    * Unix编程艺术
+* 并发编程
+    * [Linux多线程服务端编程](http://blog.csdn.net/gzlaiyonghao/article/details/10366863)
+* 网络TCP/IP协议
+    * [TCP/IP详解: 卷一](https://book.douban.com/subject/1088054/)
+* [免费的编程中文书籍索引](https://github.com/me115/free-programming-books-zh_CN/blob/master/README.md)
+* [程序员必读书](http://lucida.me/blog/developer-reading-list/)
+* python
+    * [Python|绝不乱入的靠谱书单](http://www.jianshu.com/p/587442bd4522)
+    * [tornado modern web application with python](http://demo.pythoner.com/itt2zh/index.html)
+
+## 在线文档
+
+* [各类网站汇总](http://1nami.com/)
+* [overapi](http://overapi.com/)
+* [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/)
+* [青岛生物能源与过程研究所超级运算中心 doc](http://scc.qibebt.cas.cn/docs/)
+* [常用API文档 online](http://tool.oschina.net/apidocs/)
+* [脚本之家 doc](http://shouce.jb51.net/)
+* [在线工具](http://tool.oschina.net/)
+* [程序员技能图谱](https://github.com/TeamStuQ/skill-map)
+
+* shell
+    * [Shell 编程范例](https://tinylab.gitbooks.io/shellbook/content/)
+    * [Shell脚本编程总结及速查手册](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539433&idx=1&sn=24e751e475e5c4cbe546fb833a0dc34e&scene=0#wechat_redirect)
+
+* readthedocs.io系列
+    * [linux命令行相关](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)
+    * [图说设计模式](http://design-patterns.readthedocs.io/)
+    * [the little java partern](http://a-little-java-a-few-patterns.readthedocs.io/zh_CN/latest/)
+
+* [open文档](http://www.open-open.com/doc/)
+* [快乐的 Linux 命令行](http://billie66.github.io/TLCL/)
+* [通过分析github代码库总结出来的工程师代码书写习惯](http://alloyteam.github.io/CodeGuide/)
+
+* java
+    * [java 技术栈](https://github.com/allanfish/everyday/issues/27)
+    * [JAVA技术路线图](http://lafecat.iteye.com/blog/2187106)
+    * [Java后端工程师学习大纲](http://www.rowkey.me/blog/2016/06/27/java-backend-study/)
+    * [没有IT背景的人，怎么系统的学习web后端开发 - zhihu](http://www.zhihu.com/question/24407253)
+
+* python
+    * [Python后端相关技术/工具栈](http://python.jobbole.com/83486/)
+    * [Python从基础入门到高级经典资料汇总（视频+电子书）](http://www.open-open.com/solution/view/1367477290031)
+    * [Python doc ](http://www.pythondoc.com/)
+    * [python doc ](http://python.usyiyi.cn/)
+    * [pytips - Useful Python tips! ](https://github.com/rainyear/pytips/blob/master/README.md)
+    * [Python 技巧总结](http://litaotao.github.io/python-materials)
+    * [*python学习笔记*](http://www.kancloud.cn/digest/python-notes/)
+    * python框架
+        * [requests](http://docs.python-requests.org/zh_CN/latest/)
+        * [tornado](http://www.tornadoweb.org/)
+
+* js
+    * [跟着9张思维导图学习JavaScript](http://mp.weixin.qq.com/s?__biz=MzAwNDcyNjI3OA==&mid=2650838963&idx=1&sn=693f8b05174ba00c2c4815dd3c7deda3&scene=0#wechat_redirect)
+
+* git
+    * [git-scm](https://git-scm.com/book/zh/v2)
+    * [写给 Git 初学者的 7 个建议](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539077&idx=1&sn=1003074d8589740951173e5e6cee5ca5&scene=0#wechat_redirect)
+    * [github 相关资源](http://www.tuicool.com/articles/myqIvme)
+    * [git 工作流手册](https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md)
+    * [团队中的 Git 实践](http://www.tuicool.com/articles/NFFFVrr)
+    * [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+    * [github](https://www.gitlab.com)
+
+* [matlab 文档](http://www.cnblogs.com/xilifeng/archive/2012/09/01/2666484.html)
+
+* gitbook:
+    * [操作系统设计与实现 biji](https://noah_1992.gitbooks.io/-tanenbaum/content)
+    * [操作系统简单实现与基本原理--基于ucore OS](https://chyyuu.gitbooks.io/ucorebook/content)
+    * [操作系统简单实现与基本原理 — 基于ucore](https://chyyuu.gitbooks.io/ucorebook/content/)
+    * [uCore OS实验指导书](https://objectkuan.gitbooks.io/ucore-docs/content/)
+    * [操作系统练习题库](https://github.com/chyyuu/os_course_exercise_library)
+    * [Intel 80386 程序员参考手册](https://wizardforcel.gitbooks.io/intel-80386-ref-manual/content/)
+
+* [CodeCloud](http://w3cschool.codecloud.net/) 各种技术简单入门文档
+* [codecloud各种类似gitbook](http://www.kancloud.cn/)
+
+## 安全
+
+* article
+    * [网络安全运行于维护 视频](http://mooc.chaoxing.com/course/2871068.html?edit=false&knowledgeId=2872641&module=5#content)
+
+    * [信息安全入门指南-资源](http://blog.jobbole.com/48738/)
+    * [安全类网站集锦](https://www.figotan.org/2016/07/19/security-websites-list/)
+    * [黑客|极客|网络安全学习网站收集](https://qdan.me/list/VUXQxrOqNTMblRaO)
+    * [新手指南：黑客手把手教你如何搭建自己的渗透测试环境](http://mp.weixin.qq.com/s?__biz=MzA4MDkyOTIzOA==&mid=2656352752&idx=1&sn=fbd2aa61c9ca222f055f774786f3d208&scene=4#wechat_redirect)
+    * [加解密入门基础知识](http://bbs.pediy.com/showthread.php?p=224481)
+    * [黑帽论坛](http://bbs.cnblackhat.com/forum.php)
+    * [黑客入门（一）](http://python.freelycode.com/contribution/detail/158)
+    * [如何成为一名黑客？](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539099&idx=1&sn=dc64b4bad15293e1272dbf27bd85dcc4&scene=0#wechat_redirect)
+    * [isis doc](https://github.com/isislab/Project-Ideas/wiki)
+    * [代码审计的艺术系列](http://mp.weixin.qq.com/s?__biz=MzIwMTQ2NzY4NA==&mid=2652520432&idx=1&sn=d435c832abca5c90b20e5e8d1e7a82fc&scene=21#wechat_redirect)
+* doc
+    * [kali手册](http://www.dzchack.cn/page/2)
+    * [Linux安全渗透](https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/content/0.html)
+* source
+    * [KCon大会 历届资源](http://kcon.knownsec.com/papers#kcon_2015)
+    * [KCon](http://kcon.knownsec.com/2016/)
+    * [安全网站汇总](http://1nami.com/site/195.html)
+
+### 工具
+
+* [pwnypack – 又一个CTF工具包](http://mp.weixin.qq.com/s?__biz=MzI1ODEzMzIyOQ==&mid=2650996425&idx=1&sn=b9e4c7de07344fa8b61671a77603a0dd&scene=0#wechat_redirect)
+* [社工裤cms](http://iusky.github.io/cms/)
+
+
+
+
+
+
+
+
+
 ## article
 
 * tools
-	* [网站相关工具 二维码 css压缩 json格式化等](http://www.bejson.com/)
-	* [虫部落 快搜](http://so.chongbuluo.com/)
+    * [网站相关工具 二维码 css压缩 json格式化等](http://www.bejson.com/)
+    * [整合搜索引擎 虫部落 快搜](http://so.chongbuluo.com/)
 * [10大算法](http://www.csdn.net/article/2014-04-10/2819237-Top-10-Algorithms-for-Coding-Interview)
 * [函数式编程](http://www.nowamagic.net/academy/detail/1220540)
 * 计算机学习
-	* [计算机专业练级之路](http://coolshell.cn/articles/4990.html)
-	* [给大学刚开始计算机课程同学的一封信- 内涵书籍推荐](http://www.nowamagic.net/librarys/veda/detail/2260)
-	* [写一个操作系统内核有多难？大概的内容、步骤是什么？](http://m.zhihujingxuan.com/19197.html)
-	* [五分钟内搭建 Linux 0.11 的实验环境](http://www.tinylab.org/take-5-minutes-to-build-linux-0-11-experiment-envrionment/)
-	* [计算机专业的学生必须掌握的五门课程](http://www.nowamagic.net/librarys/veda/detail/2192)
-	* [33个网站足以使你成为一个天才](http://codecloud.net/5186.html)
-	* [学习新技能的37个最佳网站](http://codecloud.net/4772.html)
-	* [CodeCloud](http://w3cschool.codecloud.net/) 各种技术简单入门文档
-	* [各类学习网站汇总](http://1nami.com/)
+    * [计算机专业练级之路](http://coolshell.cn/articles/4990.html)
+    * [给大学刚开始计算机课程同学的一封信- 内涵书籍推荐](http://www.nowamagic.net/librarys/veda/detail/2260)
+    * [写一个操作系统内核有多难？大概的内容、步骤是什么？](http://m.zhihujingxuan.com/19197.html)
+    * [五分钟内搭建 Linux 0.11 的实验环境](http://www.tinylab.org/take-5-minutes-to-build-linux-0-11-experiment-envrionment/)
+    * [计算机专业的学生必须掌握的五门课程](http://www.nowamagic.net/librarys/veda/detail/2192)
+    * [33个网站足以使你成为一个天才](http://codecloud.net/5186.html)
+    * [学习新技能的37个最佳网站](http://codecloud.net/4772.html)
+    * [CodeCloud](http://w3cschool.codecloud.net/) 各种技术简单入门文档
+    * [各类学习网站汇总](http://1nami.com/)
 * 版本控制
-	* [git工作流](https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md)
+    * [git工作流](https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md)
 * 前端
-	* [译 前端攻略-从路人甲到英雄无敌](http://mp.weixin.qq.com/s?__biz=MzA4ODIxMzg5MQ==&mid=2653995812&idx=1&sn=d963b9afab473f3e4beda540b58ffeec&scene=4#wechat_redirect)
-	* [前端攻略-从路人甲到英雄无敌二：JavaScript 与不断演化的框架](http://mp.weixin.qq.com/s?__biz=MzA4ODIxMzg5MQ==&mid=2653995832&idx=1&sn=c76ebf33cb937f73b5d937af5e00b8e9&scene=0#wechat_redirect)
-	* [结合个人经历总结的前端入门方法](http://mp.weixin.qq.com/s?__biz=MzAwNDcyNjI3OA==&mid=2650838965&idx=1&sn=07c324e5168d2d2ac99e6a28a36fb293&scene=0#wechat_redirect)
-	* [网页配色指南](http://m.ui.cn/details/124659)
-	* [UI设计流程](http://www.zhihu.com/question/23195742)
+    * [译 前端攻略-从路人甲到英雄无敌](http://mp.weixin.qq.com/s?__biz=MzA4ODIxMzg5MQ==&mid=2653995812&idx=1&sn=d963b9afab473f3e4beda540b58ffeec&scene=4#wechat_redirect)
+    * [前端攻略-从路人甲到英雄无敌二：JavaScript 与不断演化的框架](http://mp.weixin.qq.com/s?__biz=MzA4ODIxMzg5MQ==&mid=2653995832&idx=1&sn=c76ebf33cb937f73b5d937af5e00b8e9&scene=0#wechat_redirect)
+    * [结合个人经历总结的前端入门方法](http://mp.weixin.qq.com/s?__biz=MzAwNDcyNjI3OA==&mid=2650838965&idx=1&sn=07c324e5168d2d2ac99e6a28a36fb293&scene=0#wechat_redirect)
+    * [网页配色指南](http://m.ui.cn/details/124659)
+    * [UI设计流程](http://www.zhihu.com/question/23195742)
 * java
-	* [如何入门和掌握 Java 开发](https://zhuanlan.zhihu.com/p/21371311)
-	* [常见错误处理方法](http://www.kancloud.cn/digest/mydebug/195927)
-	* 设计模式
-		* [设计模式](http://www.jasongj.com/design_pattern/summary/)
-		* [浅显易懂的设计模式](http://www.kancloud.cn/digest/feihedp/196359)
-		* [追 MM 和设计模式：趣解 23 种设计模式](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539206&idx=1&sn=1c16f63c41784dc39c283dc233774eb0&scene=0#wechat_redirect)
-* source
-	* 相关网站汇总
-		* [学习网站资源网站汇总](http://www.zhihu.com/question/27751561/answer/51307463)
-		* [github awesome](https://github.com/bayandin/awesome-awesomeness)
-		* [各类网站整理](http://www.zhihu.com/question/31380464/answer/51709898)
-	* [计算机书籍控](http://bestcbooks.com/)
-	* [开源知识库](https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/content/0.html)
-	* [ui资源](http://www.xueui.cn/)
-	* [算法题和答案](http://coolshell.cn/articles/12052.html)
-	* [把《编程珠玑》读薄](http://www.hawstein.com/posts/make-thiner-programming-pearls.html)
-	* [机器学习资料](http://blog.jobbole.com/73806/)
-	* [Python资源大全](https://github.com/jobbole/awesome-python-cn)
-	* [Python 的练手项目有哪些值得推荐 - zhihu](http://www.zhihu.com/question/29372574/answer/88624507)
-	* [一个全栈增长工程师的练手项目集](https://github.com/phodal/ideabook/blob/gh-pages/README.md)
-	* [有了这个列表，程序员不愁没练手的小项目了](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539215&idx=1&sn=d639666834e10a3170e29d2c33098050&scene=0)
-	* [大数据学习资源整理](http://www.tuicool.com/wx/NrYvqu7?from=singlemessage&isappinstalled=1)
-	* [web线框图](http://www.iteye.com/news/23894)
-	* [短信登录验证 ](http://www.mob.com/)
-	* [jobbole 资源](http://hao.jobbole.com/)
-	* [ui设计相关资源](http://www.zhihu.com/question/27751561/answer/51307463)
-	* [各类网站汇总](http://1nami.com/)
+    * [如何入门和掌握 Java 开发](https://zhuanlan.zhihu.com/p/21371311)
+    * [常见错误处理方法](http://www.kancloud.cn/digest/mydebug/195927)
+    * 设计模式
+        * [设计模式](http://www.jasongj.com/design_pattern/summary/)
+        * [浅显易懂的设计模式](http://www.kancloud.cn/digest/feihedp/196359)
+        * [追 MM 和设计模式：趣解 23 种设计模式](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539206&idx=1&sn=1c16f63c41784dc39c283dc233774eb0&scene=0#wechat_redirect)
 
-* 打字游戏
-	* https://www.typing.com/
-	* http://zty.pe
-	* https://typing.io
-	* http://www.typingmaster.com
-	* http://hackertyper.net/
-
+* [tornado写博客碰到的一些问题](http://ningning.today/2016/01/27/python/tornado%E5%86%99%E5%8D%9A%E5%AE%A2%E7%A2%B0%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/)
 * [win 性能极致优化](http://mp.weixin.qq.com/s?__biz=MzA4MDkyOTIzOA==&mid=2656353183&idx=1&sn=861459be71675cc5673ee817862ee07f&scene=0)
 * [浏览器工作原理](https://segmentfault.com/a/1190000004934730?utm_source=tuicool&utm_medium=referral#articleHeader7)
 * [TCP/IP 协议栈及 OSI 参考模型详解](http://mp.weixin.qq.com/s?__biz=MzA5ODM5MDU3MA==&mid=2650861685&idx=1&sn=1b7be3f51d28b11a8b1f9cb5ad800a4f&scene=0#wechat_redirect)
@@ -84,215 +247,80 @@ Summary: 平时收集的资源汇总: 笔记 书单 博客
 * [最小的编译器](https://github.com/1c7/the-super-tiny-compiler)
 * [RESTful架构详解](http://www.open-open.com/solution/view/1437528859537)
 
-## blog
-
-* [blog 网站资源汇总](http://www.diycode.cc/sites)
-* [粉丝日志 r cpp 数据科学](http://blog.fens.me/)
-* [每个 CS 系学生都应该知道的事](http://mp.weixin.qq.com/s?__biz=MzA4MjEyNTA5Mw==&mid=2652563679&idx=1&sn=72be4da3331d2e9a399fe25e3f4727f2&scene=0#wechat_redirect)
-* [DevArticles](https://github.com/sxyx2008/DevArticles)
-* [blog 老程序员](http://www.skywind.me/blog/)
-* [推酷-编程狂人](http://www.tuicool.com/mags)
-* [v2ex](https://www.v2ex.com/)
-* [计算机基础 Blog](http://www.nowamagic.net/)
-* [泰晓科技](http://www.tinylab.org/)
-* [编程狂人 周刊](http://www.tuicool.com/mags)
-* [IT技术博客大学习](http://blogread.cn/it/)
-* [chrome 免费科学上网](https://gochrome.info/)
-
-## 安全
-
-* article
-	* [信息安全入门指南-资源](http://blog.jobbole.com/48738/)
-	* [安全类网站集锦](https://www.figotan.org/2016/07/19/security-websites-list/)
-	* [黑客|极客|网络安全学习网站收集](https://qdan.me/list/VUXQxrOqNTMblRaO)
-	* [新手指南：黑客手把手教你如何搭建自己的渗透测试环境](http://mp.weixin.qq.com/s?__biz=MzA4MDkyOTIzOA==&mid=2656352752&idx=1&sn=fbd2aa61c9ca222f055f774786f3d208&scene=4#wechat_redirect)
-	* [加解密入门基础知识](http://bbs.pediy.com/showthread.php?p=224481)
-	* [黑帽论坛](http://bbs.cnblackhat.com/forum.php)
-	* [黑客入门（一）](http://python.freelycode.com/contribution/detail/158)
-	* [如何成为一名黑客？](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539099&idx=1&sn=dc64b4bad15293e1272dbf27bd85dcc4&scene=0#wechat_redirect)
-	* [isis doc](https://github.com/isislab/Project-Ideas/wiki)
-	* [代码审计的艺术系列](http://mp.weixin.qq.com/s?__biz=MzIwMTQ2NzY4NA==&mid=2652520432&idx=1&sn=d435c832abca5c90b20e5e8d1e7a82fc&scene=21#wechat_redirect)
-* doc
-	* [kali手册](http://www.dzchack.cn/page/2)
-	* [Linux安全渗透](https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/content/0.html)
-* source
-	* [KCon大会 历届资源](http://kcon.knownsec.com/papers#kcon_2015)
-	* [KCon](http://kcon.knownsec.com/2016/)
-	* [安全网站汇总](http://1nami.com/site/195.html)
-
-### 工具
-
-* [pwnypack – 又一个CTF工具包](http://mp.weixin.qq.com/s?__biz=MzI1ODEzMzIyOQ==&mid=2650996425&idx=1&sn=b9e4c7de07344fa8b61671a77603a0dd&scene=0#wechat_redirect)
-* [社工裤cms](http://iusky.github.io/cms/)
-
-## 问答网站
-
-* [知乎](http://www.zhihu.com/)
-* [stackoverflow](http://stackoverflow.com/)
-* [segmentfault](https://segmentfault.com/)
-* [类似知乎网站](http://www.zhihu.com/question/28260522)
-* [深度开源](http://www.open-open.com/)
-* [v2ex](https://www.v2ex.com/)
-
-# 好的github
-
-* [PIOS](https://github.com/bford/PIOS):PIOS操作系统
-* [开发个人博客](https://github.com/sxyx2008/DevArticles/issues)
-* [me115](https://github.com/me115/rss)
-* [码云](http://git.oschina.net/bxtkezhan/projects)
-
-# 在线文档
-
-* [overapi](http://overapi.com/)
-* [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/)
-* [青岛生物能源与过程研究所超级运算中心 doc](http://scc.qibebt.cas.cn/docs/)
-* [常用API文档 online](http://tool.oschina.net/apidocs/)
-* [脚本之家 doc](http://shouce.jb51.net/)
-* [在线工具](http://tool.oschina.net/)
-* [程序员技能图谱](https://github.com/TeamStuQ/skill-map)
-* shell
-	* [Shell 编程范例](https://tinylab.gitbooks.io/shellbook/content/)
-	* [Shell脚本编程总结及速查手册](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539433&idx=1&sn=24e751e475e5c4cbe546fb833a0dc34e&scene=0#wechat_redirect)
-* readthedocs.io系列
-	* [linux命令行相关](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)
-	* [图说设计模式](http://design-patterns.readthedocs.io/)
-	* [the little java partern](http://a-little-java-a-few-patterns.readthedocs.io/zh_CN/latest/)
-* [open文档](http://www.open-open.com/doc/)
-* [快乐的 Linux 命令行](http://billie66.github.io/TLCL/)
-* [通过分析github代码库总结出来的工程师代码书写习惯](http://alloyteam.github.io/CodeGuide/)
-* java
-	* [java 技术栈](https://github.com/allanfish/everyday/issues/27)
-	* [JAVA技术路线图](http://lafecat.iteye.com/blog/2187106)
-	* [Java后端工程师学习大纲](http://www.rowkey.me/blog/2016/06/27/java-backend-study/)
-	* [没有IT背景的人，怎么系统的学习web后端开发 - zhihu](http://www.zhihu.com/question/24407253)
-* python
-	* [Python后端相关技术/工具栈](http://python.jobbole.com/83486/)
-	* [Python doc ](http://www.pythondoc.com/)
-	* [python doc ](http://python.usyiyi.cn/)
-	* [tornado写博客碰到的一些问题](http://ningning.today/2016/01/27/python/tornado%E5%86%99%E5%8D%9A%E5%AE%A2%E7%A2%B0%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/)
-	* [pytips - Useful Python tips! ](https://github.com/rainyear/pytips/blob/master/README.md)
-	* [Python 技巧总结](http://litaotao.github.io/python-materials)
-	* [Python从基础入门到高级经典资料汇总（视频+电子书）](http://www.open-open.com/solution/view/1367477290031)
-	* [*python学习笔记*](http://www.kancloud.cn/digest/python-notes/)
-	* python框架
-		* [requests](http://docs.python-requests.org/zh_CN/latest/)
-* js
-	* [跟着9张思维导图学习JavaScript](http://mp.weixin.qq.com/s?__biz=MzAwNDcyNjI3OA==&mid=2650838963&idx=1&sn=693f8b05174ba00c2c4815dd3c7deda3&scene=0#wechat_redirect)
-* git
-	* [git-scm](https://git-scm.com/book/zh/v2)
-	* [写给 Git 初学者的 7 个建议](http://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666539077&idx=1&sn=1003074d8589740951173e5e6cee5ca5&scene=0#wechat_redirect)
-	* [github 相关资源](http://www.tuicool.com/articles/myqIvme)
-* [intel 80386程序员参考手册](https://wizardforcel.gitbooks.io/intel-80386-ref-manual/content/49.html)
-
-* [matlab 文档](http://www.cnblogs.com/xilifeng/archive/2012/09/01/2666484.html)
-* [操作系统简单实现与基本原理 — 基于ucore](https://chyyuu.gitbooks.io/ucorebook/content/)
-
-* gitbook:
-	* [操作系统设计与实现 biji](https://noah_1992.gitbooks.io/-tanenbaum/content)
-	* [操作系统简单实现与基本原理--基于ucore OS](https://chyyuu.gitbooks.io/ucorebook/content)
-	* [uCore OS实验指导书](https://objectkuan.gitbooks.io/ucore-docs/content/)
-	* [操作系统练习题库](https://github.com/chyyuu/os_course_exercise_library)
-	* [Intel 80386 程序员参考手册](https://wizardforcel.gitbooks.io/intel-80386-ref-manual/content/)
-
-* [CodeCloud](http://w3cschool.codecloud.net/) 各种技术简单入门文档
-* [codecloud各种类似gitbook](http://www.kancloud.cn/)
-* [各类网站汇总](http://1nami.com/)
-
-# 书单
-
-* 操作系统
-	* [深入理解操作系统](http://csapp.cs.cmu.edu/):估计把所有课后题做完，至少本科毕业水平
-	* Orange's 一个操作系统的实现
-	* 深入理解Linux内核
-	* Linux内核设计与实现
-	* 深入Linux内核架构
-	* 程序员自我修养：链接装载与库
-	* Unix环境高级编程
-	* Unix编程艺术
-* 并发编程
-	* [Linux多线程服务端编程](http://blog.csdn.net/gzlaiyonghao/article/details/10366863)
-* 网络TCP/IP协议
-	* [TCP/IP详解: 卷一](https://book.douban.com/subject/1088054/)
-* [免费的编程中文书籍索引](https://github.com/me115/free-programming-books-zh_CN/blob/master/README.md)
-* [程序员必读书](http://lucida.me/blog/developer-reading-list/)
-* python
-	* [Python|绝不乱入的靠谱书单](http://www.jianshu.com/p/587442bd4522)
-	* [tornado modern web application with python](http://demo.pythoner.com/itt2zh/index.html)
-* [github书整理](https://github.com/bayandin/awesome-awesomeness)
 
 ----
 
-# 墙外风光
+## 墙外风光
 
 ```
 SwitchyOmega
-	https://github.com/FelisCatus/SwitchyOmega/releases
+    https://github.com/FelisCatus/SwitchyOmega/releases
 shadowsocks配合SwitchyOmega科学上网 http://www.jianshu.com/p/37ef0b9ecc08
-
+[chrome 免费科学上网](https://gochrome.info/)
 [ubuntu centos服务器下配置](https://github.com/sxyx2008/DevArticles/issues/128)
 [ss配置](https://lvii.gitbooks.io/outman/content/ss.windows.html)
 [科学上网 ss各种配置方法](http://www.jianshu.com/notebooks/1387861/latest)
 ss搭建
-	http://dvel.cc/shadowsocks-proxifier-fuck-gfw/
-	http://freeshadowsocks.cf
-	http://xknow.net/shadowsocks/
-	http://banjx.com/reg.php
-	http://www.ishadowsocks.net
-	https://lvii.gitbooks.io/outman/content/ss.windows.html
-	http://www.jianshu.com/p/ae72362c49a1
-	http://www.jubushoushen.com/1486.html
-	http://www.uudaili.org/free.html
+    http://dvel.cc/shadowsocks-proxifier-fuck-gfw/
+    http://freeshadowsocks.cf
+    http://xknow.net/shadowsocks/
+    http://banjx.com/reg.php
+    http://www.ishadowsocks.net
+    https://lvii.gitbooks.io/outman/content/ss.windows.html
+    http://www.jianshu.com/p/ae72362c49a1
+    http://www.jubushoushen.com/1486.html
+    http://www.uudaili.org/free.html
 [vpn搭建](http://mawenjian.net/p/1281.html)
 shadowsocks：
-	http://i.freevpnss.com/
-	http://ss.liangcuntu.com/index.php
-	[ss share blog](http://bbs.feng.com/read-htm-tid-10274933.html)
-	www.namaho.com
-	http://51.ruyo.net/shadowsocks/
-	http://freeshadowsocks.cf
-	http://blog.fazero.cc/ss
-	http://banjx.com/reg.php
-	需要注册 邮箱验证
-		https://srocket.us/
-		http://banjx.com/
-	需要code：
-		https://www.ximing.cf
-			U: afjewoigjosdf@qq.com
-			P: stht14586yjssdraty
-		http://www.pilivpn.com/user/register.php
-		http://gfw.press/
-		http://www.bujike.com/code
-		https://www.socks7.com/code
-		https://www.speed.today/code.php
-		http://free.acrossgw.com/code
-		http://outsideworld.info/code
-		http://jaffar.ga/code
-		http://ss.shire.ml/code
-		http://jaffar.ga/code
-		https://free.pigss.com/code
-		https://ss.ysee.me/code
-		http://www.pilivpn.com/code.php
-		https://www.socks7.com/code
-		https://ss.haose.club/code
+    http://i.freevpnss.com/
+    http://ss.liangcuntu.com/index.php
+    [ss share blog](http://bbs.feng.com/read-htm-tid-10274933.html)
+    www.namaho.com
+    http://51.ruyo.net/shadowsocks/
+    http://freeshadowsocks.cf
+    http://blog.fazero.cc/ss
+    http://banjx.com/reg.php
+    需要注册 邮箱验证
+        https://srocket.us/
+        http://banjx.com/
+    需要code：
+        https://www.ximing.cf
+            U: afjewoigjosdf@qq.com
+            P: stht14586yjssdraty
+        http://www.pilivpn.com/user/register.php
+        http://gfw.press/
+        http://www.bujike.com/code
+        https://www.socks7.com/code
+        https://www.speed.today/code.php
+        http://free.acrossgw.com/code
+        http://outsideworld.info/code
+        http://jaffar.ga/code
+        http://ss.shire.ml/code
+        http://jaffar.ga/code
+        https://free.pigss.com/code
+        https://ss.ysee.me/code
+        http://www.pilivpn.com/code.php
+        https://www.socks7.com/code
+        https://ss.haose.club/code
 
-	http://www.ishadowsocks.net
-	https://lvii.gitbooks.io/outman/content/ss.windows.html
-	https://www.ssd.la/
-	http://www.freess.bid/
-	http://xknow.net/shadowsocks/
-	http://www.dou-bi.com/sszhfx/
-	http://www.jianshu.com/p/ae72362c49a1
-	http://www.jubushoushen.com/1486.html
-	http://www.uudaili.org/free.html
-	http://ss.dt27.org/code
-	https://github.com/sxyx2008/DevArticles
-	http://ss.liangcuntu.com/index.php
-	测试ss方法 http://bindog.github.io/blog/2014/09/06/shadowsocks-account/
-	多个ss网站 http://bbs.feng.com/read-htm-tid-10274933.html
-	ss搭建 http://dvel.cc/shadowsocks-proxifier-fuck-gfw
+    http://www.ishadowsocks.net
+    https://lvii.gitbooks.io/outman/content/ss.windows.html
+    https://www.ssd.la/
+    http://www.freess.bid/
+    http://xknow.net/shadowsocks/
+    http://www.dou-bi.com/sszhfx/
+    http://www.jianshu.com/p/ae72362c49a1
+    http://www.jubushoushen.com/1486.html
+    http://www.uudaili.org/free.html
+    http://ss.dt27.org/code
+    https://github.com/sxyx2008/DevArticles
+    http://ss.liangcuntu.com/index.php
+    测试ss方法 http://bindog.github.io/blog/2014/09/06/shadowsocks-account/
+    多个ss网站 http://bbs.feng.com/read-htm-tid-10274933.html
+    ss搭建 http://dvel.cc/shadowsocks-proxifier-fuck-gfw
 
 VPN
-	http://i.freevpnss.com/
+    http://i.freevpnss.com/
 
 其他整理
 1 http://www.goagent.biz/ 免费shadowsocks和VPN账号
@@ -324,32 +352,33 @@ VPN
 ```
 ----
 
-# others
+## others
 
 1. jetbrains license server
-	* http://jetbrains.oliyo.cn
+    * http://jetbrains.oliyo.cn
 
 2. 前段&框架
-	* 框架
-		* [bootstrap 相关框架](https://github.com/therebelrobot/awesome-bootstrap)
-		* bootstrap free framework https://www.bootstrapzero.com
-		* [HTML5 ★ BOILERPLATE](https://html5boilerplate.com/)
-		* [pure](https://github.com/yahoo/pure/)[doc-zh](http://www.purecss.org/)
-		* [awesome](https://github.com/Zhangjd/awesome-pure-css-no-javascript/blob/master/flexbox-pattern.md)
-		* [material-design-lite](https://github.com/google/material-design-lite)
-		* [mdl](http://www.materialscss.com)
-		* [大前端工具集](http://mp.weixin.qq.com/s?__biz=MzAwNDcyNjI3OA==&mid=2650838992&idx=1&sn=eb95956441f9620a10bc65c207507e3b&scene=0)
-	* 设计资源
-		* [*****](https://dribbble.com)
-		* [线框图](http://www.iteye.com/news/23894)
+    * 框架
+        * [bootstrap 相关框架](https://github.com/therebelrobot/awesome-bootstrap)
+        * bootstrap free framework https://www.bootstrapzero.com
+        * [HTML5 ★ BOILERPLATE](https://html5boilerplate.com/)
+        * [pure](https://github.com/yahoo/pure/)[doc-zh](http://www.purecss.org/)
+        * [awesome](https://github.com/Zhangjd/awesome-pure-css-no-javascript/blob/master/flexbox-pattern.md)
+        * [material-design-lite](https://github.com/google/material-design-lite)
+        * [mdl](http://www.materialscss.com)
+        * [大前端工具集](http://mp.weixin.qq.com/s?__biz=MzAwNDcyNjI3OA==&mid=2650838992&idx=1&sn=eb95956441f9620a10bc65c207507e3b&scene=0)
+    * 设计资源
+        * [*****](https://dribbble.com)
+        * [线框图](http://www.iteye.com/news/23894)
+        * [ui资源](http://www.xueui.cn/)
 3. google镜像
-	* [Google 镜像站搜集](http://www.itechzero.com/google-mirror-sites-collect.html)
-	* http://www.google-cn.net/
-	* https://www.googto.net/
-	* http://www.gycc.com/
-	* http://dir.scmor.com/google/
-	* http://top.jobbole.com/22100/
-	* http://www.itechzero.com/google-mirror-sites-collect.html
+    * [Google 镜像站搜集](http://www.itechzero.com/google-mirror-sites-collect.html)
+    * http://www.google-cn.net/
+    * https://www.googto.net/
+    * http://www.gycc.com/
+    * http://dir.scmor.com/google/
+    * http://top.jobbole.com/22100/
+    * http://www.itechzero.com/google-mirror-sites-collect.html
 
 4. QQ account
 
@@ -362,8 +391,8 @@ VPN
 密保所对应的问题3：您配偶的姓名是？
 ```
 
-5. English 
-[赖世雄美语音标]()
-[美语从头学]()
-[ESLPOD]()
-[EnglishPod](http://www.tingroom.com/lesson/englishpod/)
+5. English
+* [赖世雄美语音标]()
+* [美语从头学]()
+* [ESLPOD]()
+* [EnglishPod](http://www.tingroom.com/lesson/englishpod/)
