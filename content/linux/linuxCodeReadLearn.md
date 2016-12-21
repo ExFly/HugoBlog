@@ -1,5 +1,5 @@
 Title: linux源代码阅读&相关资源
-Date: 2016-08-17 10:10
+Date: 2016-10-30 10:10
 Category: linux 学习
 Tags: learning, linux, 操作系统, Source
 Slug: linuxCodeReadLearn
@@ -41,13 +41,24 @@ y: 显示的格式，可为C( char), d(整数), x(hex)
 z: 单位，可为 b(byte), h(16bit), w(32bit)
 
 cgdb	可显示为上半部分为代码，下半部分命令部分
-cgdb tools/system
+cgdb tools/system* [linux-0.11启动过程描述](http://labrick.cc/2015/08/13/linux-0-11-boot/)
+* [Linux0.11启动过程](http://linux.chinaunix.net/techdoc/install/2007/04/10/954810.shtml)
+* [80386保护模式的本质](http://www.jianshu.com/p/1cea7dc5d6b7)
+* [linux虚拟地址到线性地址的转化](http://luodw.cc/2016/02/17/address/)
+* [Linux内存寻址之分段机制-linux回避了分段机制](http://blog.xiaohansong.com/2015/10/03/Linux%E5%86%85%E5%AD%98%E5%AF%BB%E5%9D%80%E4%B9%8B%E5%88%86%E6%AE%B5%E6%9C%BA%E5%88%B6/)
+* [Linux内存寻址之分页机制/](http://blog.xiaohansong.com/2015/10/05/Linux%E5%86%85%E5%AD%98%E5%AF%BB%E5%9D%80%E4%B9%8B%E5%88%86%E9%A1%B5%E6%9C%BA%E5%88%B6/)
+* [逻辑地址、线性地址、物理地址和虚拟地址](http://www.voidcn.com/blog/will130/article/p-5705051.html)
+* [Intel 80386 程序员参考手册](http://www.kancloud.cn/wizardforcel/intel-80386-ref-manual/123838)
+* [linux0.11内核之文件系统](http://harpsword.leanote.com/post/Untitled-563d6103ab6441584f000164)
 ```
-
 
 # source
 
-* [80386保护模式的本质](http://www.jianshu.com/p/1cea7dc5d6b7)
-* [Intel 80386 程序员参考手册](http://www.kancloud.cn/wizardforcel/intel-80386-ref-manual/123838)
-* [linux0.11内核之文件系统](http://harpsword.leanote.com/post/Untitled-563d6103ab6441584f000164)
 
+
+# 80386内存访问公式
+32位线性地址 = 段基地址(32位)  + 段内偏移(32位)
+
+48bit = 16 + 32
+16位地段选择子 + 32虚拟地址 -> 32线性地址
+32线性地址 -> 物理地址
