@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from functools import partial
+JINJA_FILTERS = {
+    'sort_by_article_count': partial(
+        sorted,
+        key=lambda tags: len(tags[1]),
+        reverse=True)} # reversed for descending order
 
 AUTHOR = 'Me'
 SITENAME = 'ExFly'
@@ -36,7 +42,8 @@ DEFAULT_PAGINATION = 15
 #RELATIVE_URLS = True
 
 # theme niu-x2 conf
-THEME = "./theme/niu-x2"#/vagrant/PelicanBlog/theme/niu-x2
+# THEME = "./theme/niu-x2"#/vagrant/PelicanBlog/theme/niu-x2
+THEME = "./theme/pelican-material"
 
 JINJA_EXTENSIONS = ['jinja2.ext.ExprStmtExtension',]
 TEMPLATE_PAGES = {

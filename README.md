@@ -12,13 +12,18 @@ PelicanBlog
 如下模板
 ```
 Title: CSAPP学习资源与收获
-Date: 2016-07-19 08:15
-Category: learning
-Tags: learning
-Slug: learning
-Author: EveBorn
+Date: 20??-??-?? ??:??
+Category: ?
+Tags: ?
+Slug: ?
+Author: Exfly
 Summary: 平时收集的资源汇总
 
 container
 ```
 **Slug** 表示生成之后的html文件名，故每个文件都不可以相同
+* Category: 
+	* Diary
+	* Others
+* Tags
+	* 随笔

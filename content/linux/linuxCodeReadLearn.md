@@ -54,8 +54,6 @@ cgdb tools/system* [linux-0.11启动过程描述](http://labrick.cc/2015/08/13/l
 
 # source
 
-
-
 # 80386内存访问公式
 32位线性地址 = 段基地址(32位)  + 段内偏移(32位)
 
