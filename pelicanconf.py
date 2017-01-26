@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-from functools import partial
-JINJA_FILTERS = {
-    'sort_by_article_count': partial(
-        sorted,
-        key=lambda tags: len(tags[1]),
-        reverse=True)} # reversed for descending order
 
 AUTHOR = 'Me'
 SITENAME = 'ExFly'
@@ -43,24 +37,24 @@ DEFAULT_PAGINATION = 15
 
 # theme niu-x2 conf
 # THEME = "./theme/niu-x2"#/vagrant/PelicanBlog/theme/niu-x2
-THEME = "./theme/pelican-material"
+THEME = "./theme/pelipress"
 
 JINJA_EXTENSIONS = ['jinja2.ext.ExprStmtExtension',]
-TEMPLATE_PAGES = {
-    "404.html": "404.html",
-}
-NIUX2_CATEGORY_MAP = {
-    "code": ("代码", "icon-code"),
-    "note": ("笔记", ""),
-}
-NIUX2_HEADER_SECTIONS = [
-     ("关于", "about", "/about.html", "icon-anchor"),
-     ("存档", "archives", "/archives.html", "icon-archive"),
-     ("标签", "tags", "/archives.html", "icon-tag"),
-]
+# TEMPLATE_PAGES = {
+#     "404.html": "404.html",
+# }
+# NIUX2_CATEGORY_MAP = {
+#     "code": ("代码", "icon-code"),
+#     "note": ("笔记", ""),
+# }
+# NIUX2_HEADER_SECTIONS = [
+#      ("关于", "about", "/about.html", "icon-anchor"),
+#      ("存档", "archives", "/archives.html", "icon-archive"),
+#      ("标签", "tags", "/archives.html", "icon-tag"),
+# ]
 
-NIUX2_FOOTER_ICONS = [
-     ("icon-envelope-alt", "my email address", "mailto: exfly@outlook.com"),
-     ("icon-github-alt", "my github page", "https://github.com/exfly"),
-     ("icon-rss", "subscribe my blog via rss", "#"),
- ]
+# NIUX2_FOOTER_ICONS = [
+#      ("icon-envelope-alt", "my email address", "mailto: exfly@outlook.com"),
+#      ("icon-github-alt", "my github page", "https://github.com/exfly"),
+#      ("icon-rss", "subscribe my blog via rss", "#"),
+#  ]
