@@ -1,7 +1,7 @@
 Title: linux源代码阅读&相关资源
 Date: 2016-10-30 10:10
-Category: linux 学习
-Tags: learning, linux, 操作系统, Source
+Category: Learning
+Tags: Linux
 Slug: linuxCodeReadLearn
 Author: EveBorn
 Summary: linux源代码阅读&相关资源，资源整理

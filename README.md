@@ -22,8 +22,12 @@ Summary: 平时收集的资源汇总
 container
 ```
 **Slug** 表示生成之后的html文件名，故每个文件都不可以相同
-* Category: 
+* Category:
+	* Learning
 	* Diary
 	* Others
 * Tags
 	* 随笔
+	* Diary
+	* Linux
+

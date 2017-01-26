@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Me'
-SITENAME = 'ExFly'
+AUTHOR = 'ExFly'
+SITENAME = 'ExFly Blog'
 SITEURL = 'https://exfly.github.io'
 
 PATH = 'content'
@@ -22,8 +22,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
 SOCIAL = (('twitter', '#'),

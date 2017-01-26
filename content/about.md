@@ -1,7 +1,7 @@
 Title: AboutMe
 Date: 2017-01-01 01:01
 Category: Others
-Tags: diary
+Tags: Diary
 Slug: about
 Author: Exfly
 Summary: AboutMe
