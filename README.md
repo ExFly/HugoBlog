@@ -31,3 +31,6 @@ container
 	* Diary
 	* Linux
 
+# 自己电脑正确使用姿态
+* activate py35
+* pelican
