@@ -28,9 +28,11 @@ container
 	* Others
 * Tags
 	* 随笔
+	* Algorithm
 	* Diary
 	* Linux
+	* Python
 
-# 自己电脑正确使用姿态
+# 在自己电脑正确使用姿态
 * activate py35
 * pelican
