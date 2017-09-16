@@ -1,11 +1,12 @@
-Title: AboutMe
-Date: 2017-01-01 01:01
-Category: Others
-Tags: Diary
-Slug: about
-Author: Exfly
-Summary: AboutMe
+---
+title: "关于"
+layout: "about"
+date: 2017-09-16T14:38:23+08:00
+menu: "main"
+weight: 40
+comments: false
+---
 
-[![ann](https://avatars2.githubusercontent.com/u/22613193?v=3&s=400)](https://github.com/exfly)
-
-​    转型中...
+![Exfly](https://avatars0.githubusercontent.com/u/22613193?v=4&s=400)
+[ExFly](https://github.com/ExFly)
+Keep It Simple & Stupid.

@@ -1,0 +1,36 @@
+baseURL = "https://exfly.github.io/"
+languageCode = "zh-Hans"
+title = "Exfly Blog"
+theme = "hugo-nuo"
+
+enableRobotsTXT = true
+pygmentsuseclasses = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+# Copyright of your post
+copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
+
+[[menu.main]]
+  name = "首页"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "作品"
+  weight = 20
+  identifier = "works"
+  url = "https://github.com/exfly/"
+
+# Social Networks
+[params]
+  author = "Exfly"
+  avatar = "/media/img/avatar.jpg"
+  seotitle = "Exfly Blog"
+  subtitle = "~ Keep It Simple & Stupid ~"
+  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+  paginate = 10
+
+  github = "exfly"
+  zhihu = "992122833"
