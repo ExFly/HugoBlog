@@ -1,11 +1,14 @@
 ---
 title: "各种排序算法实现方法"
 author: "Exfly"
-layout: "posts"
-cover: "/media/img/avatar.jpg"
+cover: "/media/img/default.png"
 tags: ["算法"]
 date: 2017-09-16T16:08:44+08:00
 ---
+
+总结一些常用的排序算法，如冒泡排序、插入排序、快速排序、计数排序、二分排序、归并排序等。
+
+<!--more-->
 
 # Source
 
@@ -130,7 +133,7 @@ def merge_sort(lst):
 
 # 计数排序
 
-# C实现
+## C实现
 
 ```
 void counting_sort(int *ini_arr, int *sorted_arr, int n) {
