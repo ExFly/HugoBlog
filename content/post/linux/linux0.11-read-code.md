@@ -1,7 +1,7 @@
 ---
 title: "Linux0.11源码学习环境配置与相关资源汇总"
 author: "Exfly"
-cover: "/media/img/default.png"
+cover: "/media/img/linux0.11readcode/linux.jpg"
 tags: ["Linux", "资源"]
 date: 2016-10-30T14:17:49+08:00
 ---

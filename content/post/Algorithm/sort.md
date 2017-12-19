@@ -1,7 +1,7 @@
 ---
 title: "各种排序算法实现方法"
 author: "Exfly"
-cover: "/media/img/default.png"
+cover: "/media/img/Algorithm/排毒算法复杂度2.jpg"
 tags: ["算法"]
 date: 2017-09-16T16:08:44+08:00
 ---
@@ -13,6 +13,11 @@ date: 2017-09-16T16:08:44+08:00
 # Source
 
 * [排序算法比较-wiki](https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
+* [visualgo](https://visualgo.net/zh/sorting?slide=1)
+* [排序算法的动态图](http://blog.jobbole.com/11745/)
+* 排序算法复杂度
+![排序算法复杂度1](/media/img/Algorithm/排序算法复杂度.png)
+![排序算法复杂度2](/media/img/Algorithm/排毒算法复杂度2.jpg)
 
 # 冒泡排序
 
