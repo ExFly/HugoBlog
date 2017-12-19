@@ -2,6 +2,11 @@ Personal Blog for Exfly.
 [Hugo Document](http://www.gohugo.org/)
 [theme:hugo-nuo](https://github.com/laozhu/hugo-nuo)
 
+# hugo
+* hugo new site /path/to/site
+* hugo new about.md
+* hugo new post/first.md
+* hugo server
 # 资源 
 * [开源logo](http://logodust.com/?oschina)，可以作为每篇文章的缩略图
 
