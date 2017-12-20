@@ -9,7 +9,7 @@ PygmentsCodeFences = true
 canonifyurls = true
 
 # Copyright of your post
-copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
+copyright = "©2017 by Exfly. All rights reserved."
 
 [[menu.main]]
   name = "首页"
