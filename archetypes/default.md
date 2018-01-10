@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 author: "Exfly"
-cover: "/media/img/default.png"
-tags: ["tagA", "tagB"]
+cover: "/media/img/icon/logo43.svg"
+tags: []
 date: {{ .Date }}
 draft: true
 ---
