@@ -1,7 +1,7 @@
 ---
 title: "Collections知识整理"
 author: "Exfly"
-cover: "/media/img/icon/logo43.svg"
+cover: "/media/img/Java/Collections/icon.png"
 tags: ["Java"]
 date: 2018-03-24T10:33:11+08:00
 ---
