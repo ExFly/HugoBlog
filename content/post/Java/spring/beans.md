@@ -6,7 +6,7 @@ tags: ["Spring", "SSM"]
 date: 2018-05-20T16:49:06+08:00
 ---
 
-文章简介：spring中bean的装配有一定规则，在这里进行总结。本文主要讲解一些概念和java配置方法。
+文章简介：spring中bean的装配有一定规则，在这里进行总结。本文主要讲解一些概念和java配置方法。demo代码见文末。
 
 <!--more--> 
 
@@ -166,3 +166,6 @@ public class Notepad{}
 
 ## 运行时值注入
 以后补充
+
+## 其他
+[项目代码](/media/img/Java/beans/beandemo.rar)
