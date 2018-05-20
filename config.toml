@@ -1,4 +1,4 @@
-baseURL = "https://exfly.github.io/"
+baseURL = "/"
 languageCode = "zh-Hans"
 title = "Exfly Blog"
 theme = "hugo-nuo"
