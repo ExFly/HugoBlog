@@ -15,7 +15,7 @@ openresty中lua ide调试，单元测试比较麻烦；lua对库的管理比较�
 结合Python的一些经验，在这里整理一下自己对Lua的理解，以及Lua最佳实践。
 
 # OpenResty安装
-对于软件，使用编译方式安装比较好，比如Ubuntu，apt-get安装的包一般都会比较旧。如下介绍我的编译参数。这里需要自己下载自己的依赖包：naxsi, nginx-goodies-nginx-sticky-module-ng，pcre，openssl，zlib
+对于软件，使用编译方式安装比较好，比如Ubuntu，apt-get安装的包一般都会比较旧。如下介绍我的编译参数。这里需要自己下载自己的依赖包：naxsi, nginx-goodies-nginx-sticky-module-ng，pcre，openssl，zlib，并根据我的配置进行修改相应参数
 ```sh
 ./configure --prefix=$HOME/openresty \
  --add-module=$HOME/openresty/setupfile/third/naxsi-0.55.3/naxsi_src \
@@ -35,9 +35,25 @@ openresty中lua ide调试，单元测试比较麻烦；lua对库的管理比较�
 * 我在学习的时候，看了这本书[深入理解Nginx模块开发与架构解析](#),毕竟讲的比较系统，可以借鉴一下
 * 有问题，知乎，搜索引擎
 
+## 安装luarocks
+* 下载地址 http://luarocks.github.io/luarocks/releases/
+* 编译安装
+```
+./configure --prefix=$HOME/openresty/luajit \
+    --with-lua=$HOME/openresty/luajit \
+    --lua-suffix=jit \
+    --with-lua-include=$HOME/openresty/luajit/include/luajit-2.1
+
+--prefix 设定 luarocks 的安装目录
+--with-lua 则是系统中安装的 lua 的根目录
+--lua-suffix 版本后缀，此处因为openresyt的lua解释器使用的是 luajit ,所以此处得写 jit
+--with-lua-include 设置 lua 引入一些头文件头文件的目录
+make build && make install
+```
+
 # lua面向对象
-lua 借助table以及metatable的概念进行oo的。这里摘了一个博客的代码，看起来还可以。以后可以使用这个。[Lua 中实现面向对象](https://blog.codingnow.com/2006/06/oo_lua.html)。具体怎么用，看您心情。
-这里要说一下lua中[.运算和:的区别](https://www.kancloud.cn/digest/luanote/119940)，a=10;a.fun(a, arg) 等价于 a:fun(arg)，其实就是:可以省略self参数。
+lua 借助table以及metatable的概念进行oo的。这里摘了一个博客的代码，看起来还可以。以后可以使用这个。[Lua 中实现面向对象](https://blog.codingnow.com/2006/06/oo_lua.html)。
+这里要说一下lua中[.运算和:的区别](https://www.kancloud.cn/digest/luanote/119940)，a={};a.fun(a, arg) 等价于 a:fun(arg)，其实就是`:`可以省略self参数。
 ```lua
 local _class={}
 function class(super)
@@ -85,6 +101,9 @@ end
 
 # 基本编码规范 设计
 [可以参考OpenResty的最佳实践](https://moonbingbing.gitbooks.io/openresty-best-practices/web/code_style.html)，平时用起来，大部分跟c的风格差不多吧。主要是所使用的代码风格要统一。
+
+# 包管理
+lua下有两个包管理系统，LuaDist和LuaRocks
 
 # 单元测试
 * **重点** 如下方法请在命令行中使用类似`curl localhost/unittest`进行测试，浏览器中看会很痛苦
@@ -155,8 +174,9 @@ require('mobdebug').done()
 * Project -> Project Directory -> Set From Current File。
 * 此时，打开浏览器，访问需要此文件处理的链接
 * 此时开始调试
+![ZeroBrane Studio调试OpenResty](/media/img/Lua/openresty_awesome/debug.png)
 * 注：在最下侧有Remote console，在这里可以执行任何ngx lua语句
-* 如上流程没有截图，或者没有说清楚，可以来[这里](https://lua.ren/topic/126/)
+* 如上流程没有截图，或者没有说清楚，可以来[这里](http://ju.outofmemory.cn/entry/326200)
 
 # nginx一些技巧
 * 看我配置的nginx.conf
