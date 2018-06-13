@@ -38,7 +38,7 @@ openresty中lua ide调试，单元测试比较麻烦；lua对库的管理比较�
 ## 安装luarocks
 * 下载地址 http://luarocks.github.io/luarocks/releases/
 * 编译安装
-```
+```sh
 ./configure --prefix=$HOME/openresty/luajit \
     --with-lua=$HOME/openresty/luajit \
     --lua-suffix=jit \
@@ -150,7 +150,7 @@ return tb
 * 性能测试 代码覆盖率 API测试等，都可以去[OpenResty最佳实践](https://moonbingbing.gitbooks.io/openresty-best-practices/)中找，配置很简单。
 
 # 远程调试 OpenResty
-* 对于此部分，对于有些人来说，使用日志就已经足够了。可对于有些时候，在代码中太多的日志有不利于维护。这里自己要尽力多好日志和调试的平衡吧。
+* 对于此部分，对于有些人来说，使用日志就已经足够了。可对于有些时候，在代码中太多的日志有不利于维护。这里自己要尽力做好日志和调试的平衡吧。
 * 此调试方法适用于 win linux osx
 * 先贴这里用到的luaIDE地址：[ZeroBraneStudio](https://github.com/pkulchenko/ZeroBraneStudio)
 * 如下为安装步骤：
