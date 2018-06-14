@@ -16,6 +16,7 @@ openresty中lua ide调试，单元测试比较麻烦；lua对库的管理比较�
 
 # OpenResty安装
 对于软件，使用编译方式安装比较好，比如Ubuntu，apt-get安装的包一般都会比较旧。如下介绍我的编译参数。这里需要自己下载自己的依赖包：naxsi, nginx-goodies-nginx-sticky-module-ng，pcre，openssl，zlib，并根据我的配置进行修改相应参数
+
 ```sh
 ./configure --prefix=$HOME/openresty \
  --add-module=$HOME/openresty/setupfile/third/naxsi-0.55.3/naxsi_src \
@@ -38,6 +39,7 @@ openresty中lua ide调试，单元测试比较麻烦；lua对库的管理比较�
 ## 安装luarocks
 * 下载地址 http://luarocks.github.io/luarocks/releases/
 * 编译安装
+
 ```sh
 ./configure --prefix=$HOME/openresty/luajit \
     --with-lua=$HOME/openresty/luajit \
@@ -54,6 +56,7 @@ make build && make install
 # lua面向对象
 lua 借助table以及metatable的概念进行oo的。这里摘了一个博客的代码，看起来还可以。以后可以使用这个。[Lua 中实现面向对象](https://blog.codingnow.com/2006/06/oo_lua.html)。
 这里要说一下lua中[.运算和:的区别](https://www.kancloud.cn/digest/luanote/119940)，a={};a.fun(a, arg) 等价于 a:fun(arg)，其实就是`:`可以省略self参数。
+
 ```lua
 local _class={}
 function class(super)
@@ -161,6 +164,7 @@ return tb
 * 复制<ZBS>/bin/clibs/socket/core -> socket设为nginx lua cpath（调试时候，使用的是require("socket.core")形式导入包。这里需要注意core文件后缀，win是dll，linux是so，）
 * nginx配置好,将如上依赖加到nginx.conf中，让lua可以找到这些文件即可
 * 创建需要调试的lua文件
+
 ```
 require('mobdebug').start('192.168.1.22')
 local name = ngx.var.arg_name or "Anonymous"
@@ -168,6 +172,7 @@ ngx.say("Hello, ", name, "!")
 ngx.say("Done debugging.")
 require('mobdebug').done()
 ```
+
 注：start()呼叫需要运行IDE的计算机的IP 。默认情况下使用“localhost”，但是由于您的nginx实例正在运行，因此您需要指定运行IDE的计算机的IP地址（在我的例子中192.168.1.22）
 
 * 在ide中打开需要调试的如上lua文件
