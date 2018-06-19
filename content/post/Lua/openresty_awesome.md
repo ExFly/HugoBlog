@@ -1,7 +1,7 @@
 ---
 title: "OpenResty最佳实践"
 author: "Exfly"
-cover: "/media/img/Lua/openresty_awesome/icon.jpg"
+cover: "/media/img/Lua/openresty_awesome/icon.png"
 tags: ["Lua", "OpenResty"]
 date: 2018-06-12T16:01:38+08:00
 ---

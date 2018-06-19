@@ -1,7 +1,7 @@
 ---
 title: "微服务设计笔记 脑图"
 author: "Exfly"
-cover: "/media/img/icon/logo43.svg"
+cover: "/media/img/architecture/icon.jpg"
 tags: ["Architecture", "微服务"]
 date: 2018-06-10T22:50:19+08:00
 ---
