@@ -1,8 +1,8 @@
 ---
 title: "Gradle和Maven使用方法总结"
 author: "Exfly"
-cover: "/media/img/icon/logo43.svg"
-tags: []
+cover: "/media/img/Java/gradle_maven/gradle.png"
+tags: ["Java"]
 date: 2018-06-24T17:38:17+08:00
 ---
 
