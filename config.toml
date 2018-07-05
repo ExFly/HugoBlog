@@ -24,7 +24,7 @@ copyright = "©2017 by Exfly. All rights reserved."
   url = "https://github.com/exfly/"
 
 [[menu.main]]
-  name = "Tags"
+  name = "标签"
   weight = 30
   identifier = "tags"
   url = "/tags/"
