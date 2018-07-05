@@ -1,7 +1,7 @@
 ---
 title: "分布式数据的最终一致性"
 author: "Author Name"
-cover: "/media/img/icon/logo43.svg"
+cover: "/media/img/architecture/EventuallyConsistent/CAP.jpg"
 tags: ["Architecture", "Distributed"]
 date: 2018-06-28T16:34:49+08:00
 ---
