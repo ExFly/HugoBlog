@@ -152,6 +152,8 @@ go run server.go
 
 ![前后度分离结果，设置了cookie](/media/img/frontend/setcookie-front-back-sep.png)
 
+最终的网站见[ExFly/FrontBackSep](https://github.com/ExFly/FrontBackSep)
+
 # 后记
 
 既然在前后端分离后的后端可以配置cookie，其他的所有操作都可以进行了。进一步可以实现其他的操作。如上。
