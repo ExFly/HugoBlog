@@ -10,6 +10,8 @@ date: 2018-10-28T09:47:12+08:00
 
 <!--more-->
 
+[原文地址](https://github.com/ExFly/HugoBlog/blob/master/content/post/frontend/front-end-separation-architecture-environment-construction.md)
+
 # Web 研发模式演变
 
 最近研究一下前后端的开发模式，看到一个很好的入门路径[developer-roadmap: frontend backend DevOps](https://github.com/kamranahmedse/developer-roadmap),可以看一下，效果还是不错的。
