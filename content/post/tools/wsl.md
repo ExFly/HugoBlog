@@ -1,7 +1,7 @@
 ---
 title: "WSL(windows subsystem for linux) win子系统"
 author: "Author Name"
-cover: "/img/cover.jpg"
+cover: "/media/img/wsl/ubuntu.icon.png"
 tags: ["工具", "wsl"]
 date: 2018-12-08T16:00:59+08:00
 ---
