@@ -2,7 +2,7 @@
 title: "Realize代码分析"
 author: "exfly"
 cover: "/media/img/icon/logo43.svg"
-tags: ["tagA", "tagB"]
+tags: ["工具", "Go"]
 date: 2018-10-11T12:55:03+08:00
 ---
 
