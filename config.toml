@@ -1,50 +1,79 @@
-baseURL = "/"
-languageCode = "zh-Hans"
-title = "Exfly Blog"
-theme = "hugo-nuo"
+Title =  "Exfly Blog"
+LanguageCode = "zh-CN"
+BaseUrl = "/"
+Theme =  "next"
+MetaDataFormat =  "yaml"
+CanonifyUrls =  true
+BuildDrafts =  false
+PaginatePath =  "p"
+Paginate = 8
+DisablePathToLower =  false
+HasCJKLanguage = true
+PreserveTaxonomyNames = false
+UglyUrls = false
+PygmentsStyle = "monokai"
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+DefaultContentLanguage = "zh"
 
-enableRobotsTXT = true
-pygmentsuseclasses = true
-PygmentsCodeFences = true
-canonifyurls = true
+[Params]
+  Introduce = "Programmer & Architect"
+  Description = "exfly | 博客 | 软件 | 架构 | Java | Golang | Python"
+  Keywords =  "exfly,独立,博客,程序员,架构师,个人,思考,读书,笔记,技术,分享,Golang"
+  Subtitle = "一指流沙，程序年华"
+  Imglogo = "/img/logo.png"
+  AuthorImg = "/media/img/avatar.jpg"
+  DateFormat = "2006-01-02"
+  YearFormat = "2006年"
+  MonthFormat = "01-02"
+  #BaiduStatsId = "0b07433b4ab8d587dae7d34e71973839"
+  #QQStatsId = "58416275"
+  Fancybox = true
 
-# Copyright of your post
-copyright = "©2017 by Exfly. All rights reserved."
+[Author]
+  Name = "exfly"
 
-[[menu.main]]
-  name = "首页"
-  weight = 10
-  identifier = "home"
-  url = "/"
+[Params.Share]
+  DuoShuo = "haifei.zhang"
+  Baidu = true
 
-[[menu.main]]
-  name = "作品"
-  weight = 20
-  identifier = "works"
-  url = "https://github.com/exfly/"
+[[Menu.Main]]
+  Name = "首页"
+  Pre = "home"
+  URL = "/"
+  Weight = 1
+[[Menu.Main]]
+  Name = "技术"
+  Pre = "code"
+  URL = "/categories/技术/"
+  Weight = 2
+[[Menu.Main]]
+  Name = "感想"
+  Pre = "tint"
+  URL = "/categories/感想/"
+  Weight = 3
+[[Menu.Main]]
+  Name = "笔记"
+  Pre = "book"
+  URL = "/categories/笔记/"
+  Weight = 4
+[[Menu.Main]]
+  Name = "杂记"
+  Pre = "leaf"
+  URL = "/categories/杂记/"
+  Weight = 5
+[[Menu.Main]]
+  Name = "归档"
+  Pre = "archive"
+  URL = "/post/"
+  Weight = 6
 
-[[menu.main]]
-  name = "标签"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
+[[Params.Socials]]
+  Name = "GitHub"
+  Icon = "github"
+  URL = "https://github.com/exfly/"
 
-# Social Networks
-[params]
-  author = "Exfly"
-  avatar = "/media/img/avatar.jpg"
-  seotitle = "Exfly Blog"
-  subtitle = "~ Keep It Simple & Stupid ~"
-  description = "Exfly，专注计算机技术，具备基本的操作系统、计算机网络、数据结构和算法的知识，擅长python后端，爬虫，掌握一定的数据分析知识，了解Linux基本的服务器维护，了解数据库的基本维护，了解基本的网络安全，坚信技术改变世界，希望在计算机行业有一席之地。"
-  paginate = 15
-
-  github = "exfly"
-  zhihu = "992122833"
-
-  # Changyan Comments (China Only)
-  changyan = true
-  changyanId = "cytHpQ1g5"
-  changyanConf = "prod_25a912a7aeeea832a5ce492ebefe1bac"
-
-  # ICP Number (China Only)
-  ICP = "苏ICP备16005986号-2"
+[[Params.Socials]]
+  Name = "Facebook"
+  Icon = "facebook"
+  URL = "https://facebook.com/exflyg/"  

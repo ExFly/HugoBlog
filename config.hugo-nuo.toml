@@ -1,0 +1,50 @@
+baseURL = "/"
+languageCode = "zh-Hans"
+title = "Exfly Blog"
+theme = "hugo-nuo"
+
+enableRobotsTXT = true
+pygmentsuseclasses = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+# Copyright of your post
+copyright = "©2017 by Exfly. All rights reserved."
+
+[[menu.main]]
+  name = "首页"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "作品"
+  weight = 20
+  identifier = "works"
+  url = "https://github.com/exfly/"
+
+[[menu.main]]
+  name = "标签"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+
+# Social Networks
+[params]
+  author = "Exfly"
+  avatar = "/media/img/avatar.jpg"
+  seotitle = "Exfly Blog"
+  subtitle = "~ Keep It Simple & Stupid ~"
+  description = "Exfly，专注计算机技术，具备基本的操作系统、计算机网络、数据结构和算法的知识，擅长python后端，爬虫，掌握一定的数据分析知识，了解Linux基本的服务器维护，了解数据库的基本维护，了解基本的网络安全，坚信技术改变世界，希望在计算机行业有一席之地。"
+  paginate = 15
+
+  github = "exfly"
+  zhihu = "992122833"
+
+  # Changyan Comments (China Only)
+  changyan = true
+  changyanId = "cytHpQ1g5"
+  changyanConf = "prod_25a912a7aeeea832a5ce492ebefe1bac"
+
+  # ICP Number (China Only)
+  ICP = "苏ICP备16005986号-2"
