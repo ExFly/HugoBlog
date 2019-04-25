@@ -64,3 +64,8 @@ DefaultContentLanguage = "zh"
   Name = "Facebook"
   Icon = "facebook"
   URL = "https://facebook.com/exflyg/"  
+
+[[Params.Socials]]
+  Name = "Twitter"
+  Icon = "twitter"
+  URL = "https://twitter.com/exflyg"
