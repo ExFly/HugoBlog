@@ -1,12 +1,12 @@
 ---
-title: "docker 源码阅读：开发环境搭建 + docker源码分析"
+title: "Docker 源码阅读: 开发环境搭建"
 author: "Exfly"
 cover: "/media/img/icon/logo43.svg"
-tags: ["docker", "container"]
+tags: ["docker", "container", "源码"]
 date: 2019-04-23T12:48:28+08:00
 ---
 
-文章简介：介绍 docker 开发环境搭建
+文章简介：介绍 `docker` 开发环境搭建
 
 <!--more-->
 

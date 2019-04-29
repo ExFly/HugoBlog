@@ -1,49 +1,23 @@
 ---
-title: "docker源码分析"
+title: "Docker 源码阅读: Docker Run"
 author: "Exfly"
 cover: "/media/img/icon/logo43.svg"
-tags: []
-date: 2019-04-23T21:35:46+08:00
+tags: ["docker", "源码"]
+date: 2019-04-29T12:46:21+08:00
 ---
 
-文章简介：`docker`代码结构，`docker run`代码分析
+文章简介：通过分析 `docker run` 命令，理解 Docker 的工作原理
 
 <!--more-->
 
-# docker 全局架构
-
-![docker架构图](/media/img/docker/docker-architecture.jpg)
-
-## 模块
-
-DockerClient DockerDaemon DockerRegistry Graph Driver libcontainer DockerContainer
-
-libcontainer 涉及大量 linux 内核特性，包括 namespaces,cgroups,capabilities
-
-### 各部分关联
-
-通信方式 tcp://host:port unix://path_to_socket fd://socketfd
-
-[from here](https://www.huweihuang.com/kubernetes-notes/docker/docker-architecture.html)
-
-- 用户是使用 Docker Client 与 Docker Daemon 建立通信，并发送请求给后者。
-- Docker Daemon 作为 Docker 架构中的主体部分，首先提供 Server 的功能使其可以接受 Docker Client 的请求；
-- Engine 执行 Docker 内部的一系列工作，每一项工作都是以一个 Job 的形式的存在。
-- Job 的运行过程中，当需要容器镜像时，则从 Docker Registry 中下载镜像，并通过镜像管理驱动 graphdriver 将下载镜像以 Graph 的形式存储；
-- 当需要为 Docker 创建网络环境时，通过网络管理驱动 networkdriver 创建并配置 Docker 容器网络环境；
-- 当需要限制 Docker 容器运行资源或执行用户指令等操作时，则通过 execdriver 来完成。
-- libcontainer 是一项独立的容器管理包，networkdriver 以及 execdriver 都是通过 libcontainer 来实现具体对容器进行的操作。
-
-具体的可以看[这里](https://www.huweihuang.com/article/docker/docker-architecture/)，已经介绍的很清楚。
-
-## `docker run`执行流程分析
+# `docker run`执行流程分析
 
 整体执行流程: 从本地镜像中寻找是否存在命令指定镜像，如果存在则正常返回，执行接下来流程。如果不存在镜像，deamon 返回错误，由 cli 重新发起 pull 请求，之后重试。
 
 ### 总体描述
 
-- createContainer
-- ContainerStart
+- createContainer cli 通过 rest 接口请求 dockerd 创建容器，dockerd 设置基础配置后记录创建的容器
+- ContainerStart cli 通过 rest 接口请求 dockerd 运行容器，dockerd 使用 rpc 链接 containnerd 进行运行容器
 
 代码 `lanything/code-read` forked `moby/moby`, `lanything/cli` forked `docker/cli`
 
