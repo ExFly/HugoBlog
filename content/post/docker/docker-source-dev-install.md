@@ -37,6 +37,14 @@ docker 官方的贡献引导: [moby/docs/contributing/README.md](https://github.
 - 修改代码
 - `hack/make.sh binary install-binary`
 
+### 常用目录/命令
+
+- `docker inspect` 查看镜像或容器运行配置信息，`GraphDriver` 为容器挂载信息
+- `/var/lib/docker/overlay2/<image_id>/{merged, diff, work}`
+- `/var/lib/docker/containers`当前运行中的容器配置信息
+- `/var/lib/docker/image`镜像库
+- `/var/lib/docker/volumes`volumes 储存位置
+
 # 调试
 
 ## 调试 makefile
