@@ -129,3 +129,5 @@ Docker 从一个单一的软件转移到一组独立的组件和项目。
 - [libnetwork](https://github.com/docker/libnetwork)
 - [containerd](https://github.com/containerd/containerd)
 - [runc](https://github.com/opencontainers/runc)
+
+- [Visualizing Docker Containers and Images](http://merrigrove.blogspot.com/2015/10/visualizing-docker-containers-and-images.html)
