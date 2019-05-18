@@ -2,9 +2,8 @@
 title: "Go 启动多个程序，及 IPC 和 RPC 交互例子,以及 Gracefully Shutdown"
 author: "Exfly"
 cover: "/media/img/icon/logo43.svg"
-tags: ["Go"]
+tags: ["go", "IPC", "RPC"]
 date: 2019-05-05T18:54:46+08:00
-draft: true
 ---
 
 文章简介：Go 程序启动 RPC 子进程，通过 pipe 进行交互，以及通过 RPC 交互
@@ -120,4 +119,4 @@ make task rpc && ./bin/task
 # 2019/05/19 01:33:13 stop subproc ./bin/task-rpc success
 ```
 
-当前更新主要以发布代码为主，没有详细解释，详细见代码。
+当前更新主要以发布代码为主，没有详细解释，详细见代码 [exfly/go-ipc](https://github.com/exfly/cslab/tree/master/Code/Go/go-ipc)
