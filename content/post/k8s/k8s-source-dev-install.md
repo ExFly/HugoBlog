@@ -66,6 +66,8 @@ make WHAT=cmd/{\$package_you_want}
 
 https://github.com/kubernetes/community/blob/master/contributors/devel/development.md
 
+`GO111MODULE=on GOPROXY=https://goproxy.io go get github.com/go-delve/delve`
+
 # others
 
 vscode, git
@@ -74,4 +76,6 @@ vscode, git
 
 # related links
 
-https://farmer-hutao.github.io/k8s-source-code-analysis/prepare/get-code.html
+- https://farmer-hutao.github.io/k8s-source-code-analysis/prepare/get-code.html
+- [比较老得笔记](https://github.com/Kevin-fqh/learning-k8s-source-code)
+- [iptable系列文章](http://www.zsythink.net/archives/tag/iptables/page/2/)

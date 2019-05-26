@@ -30,6 +30,7 @@ draft: true
 #### "Computing predicates"
 
 "Computing predicates"：调用 findNodesThatFit()方法；
+predicates.FitPredicate implement: `NoDiskConflict`
 
 #### "Prioritizing"
 
@@ -39,6 +40,24 @@ draft: true
 
 "Selecting host"：调用 selectHost()方法。
 
-## List-Watch
+#### List-Watch
 
-## Informer
+#### Informer
+
+### 抢占调度
+
+pkg/scheduler/scheduler.go#preempt
+
+# 总结
+
+kube-scheduler 工作流程
+
+对给定的 pod，先列举所有可调度的 nodes，根据资源是否充足初步过滤；使用优先级算法对 nodes 进行计算排序；最终选择分数最高的一个 node
+
+总的工作流程图：
+
+![kube-scheduler workflow](/media/img/k8s/scheduler/kube-scheduler-workflow.png) referenced from [here](https://farmer-hutao.github.io/k8s-source-code-analysis/core/scheduler/summarize.html)
+
+# Reference
+
+- [kube-scheduler workflow](https://farmer-hutao.github.io/k8s-source-code-analysis/core/scheduler/summarize.html)
