@@ -123,6 +123,11 @@ Docker 从一个单一的软件转移到一组独立的组件和项目。
 - deamon 运行较少的容器
 - 能够在不破坏正在运行的容器的情况下重启或升级引擎
 
+## containerd
+
+containerd 架构 
+![containerd-architecture](/media/img/docker/containerd-architecture.png)
+
 # related link
 
 - [moby](https://github.com/moby/moby)
