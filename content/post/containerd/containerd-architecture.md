@@ -17,7 +17,7 @@ containerd 启动 grpc server 向外部服务
 
 具体的服务实现类在此：
 
-- content servece services/content/contentserver/contentserver.go
+- content-servece services/content/contentserver/contentserver.go
 
 # ctr
 
@@ -25,9 +25,10 @@ containerd 启动 grpc server 向外部服务
 sudo ctr --namespace docker tasks
 
 sudo ctr content fetch docker.io/crosbymichael/runc:latest
-sudo ctr  install docker.io/crosbymichael/runc:latest
+sudo ctr install docker.io/crosbymichael/runc:latest
 sudo ctr content fetch docker.io/library/redis:alpine
 sudo ctr run --rm  docker.io/library/redis:alpine redis-demo-c
+sudo ls /run/containerd/io.containerd.runtime.v1.linux/default/redis-demo-c/
 ```
 
 # references
