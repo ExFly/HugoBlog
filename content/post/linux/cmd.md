@@ -9,7 +9,8 @@ draft: true
 
 文章简介：常用命令备忘录
 
-<!--more--> 
+<!--more-->
 
 # ubuntu 服务管理
+
 sudo systemctl restart docker
