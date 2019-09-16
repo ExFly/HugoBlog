@@ -55,6 +55,12 @@ DefaultContentLanguage = "zh"
   URL = "/post/"
   Weight = 3
 
+[[Menu.Main]]
+  Name = "书单"
+  Pre = "books"
+  URL = "/books"
+  Weight = 4
+
 [[Params.Socials]]
   Name = "GitHub"
   Icon = "github"
