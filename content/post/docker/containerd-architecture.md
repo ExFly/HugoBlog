@@ -2,7 +2,7 @@
 title: "Containerd Architecture"
 author: "Exfly"
 cover: "/media/img/icon/logo43.svg"
-tags: ["containerd"]
+tags: ["containerd", "docker"]
 date: 2019-05-26T18:50:31+08:00
 draft: true
 ---

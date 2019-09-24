@@ -58,7 +58,7 @@ DefaultContentLanguage = "zh"
 [[Menu.Main]]
   Name = "书单"
   Pre = "books"
-  URL = "/books"
+  URL = "/books/"
   Weight = 4
 
 [[Params.Socials]]
