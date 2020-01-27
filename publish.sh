@@ -15,7 +15,7 @@ pushd public
 git add .
 
 # Commit changes.
-msg="rebuilding site $(date)"
+msg="rebuilding site $(date -u '+%Y/%m/%d %T') UTC"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
