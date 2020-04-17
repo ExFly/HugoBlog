@@ -2,9 +2,8 @@
 title: "ElasticSearch"
 author: "Exfly"
 cover: "/media/img/icon/logo43.svg"
-tags: []
+tags: ["es"]
 date: 2020-04-16T08:49:16+08:00
-draft: true
 ---
 
 ElasticSearch 整理一下知识点
