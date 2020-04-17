@@ -111,3 +111,8 @@ node.master node.data 两两组合成不同的节点
 
 - [elasticsearch cheatsheet](https://elasticsearch-cheatsheet.jolicode.com/)
 - [Elasticsearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/master/index.html)
+- [Elasticsearch－基础介绍及索引原理分析](https://www.cnblogs.com/dreamroute/p/8484457.html)
+- [Choosing a fast unique identifier (UUID) for Lucene](http://blog.mikemccandless.com/2014/05/choosing-fast-unique-identifier-uuid.html)
+- [Elasticsearch架构原理](https://www.jianshu.com/p/5b88e95a9e80)
+- [Elasticsearch性能优化](http://wangnan.tech/post/elkstack-es03/)
+- [ElasticSearch读写底层原理及性能调优](https://juejin.im/post/5de0c453f265da05aa65d8b1)
