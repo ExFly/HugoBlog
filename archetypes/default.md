@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "{{ replace .Name "-" " " | title }}"
 author: "Exfly"
 cover: "/media/img/icon/logo43.svg"
 tags: []
