@@ -3,12 +3,12 @@ title: "(翻译)Go 高性能研讨讲座 - High Performance Go Workshop"
 author: "Exfly"
 cover: "/media/img/icon/logo43.svg"
 tags: ["go"]
-date: 2020-09-22T10:26:28+08:00
+date: 2020-09-27T08:57:31+08:00
 ---
 
 文章简介：优化Go程序
 
-<!--more--> 
+<!--more-->
 
 > [原文地址](https://dave.cheney.net/high-performance-go-workshop/gopherchina-2019.html)
 > forked from [here](https://raw.githubusercontent.com/zeromake/zeromake.github.io/master/content/post/high-performance-go-workshop.md)
